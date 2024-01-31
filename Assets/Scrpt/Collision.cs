@@ -10,12 +10,12 @@ public class Collision : MonoBehaviour
     public float explosionPower;
     public LayerMask explosionLayers;
 
-    public GameObject Particles;
+    //public GameObject Particles;
 
     private void OnCollisionEnter(UnityEngine.Collision col)
     {
-        Particles.gameObject.GetComponent<Renderer>().material = col.gameObject.GetComponent<MeshRenderer>().material;
-        Instantiate(Particles, col.transform.position, Quaternion.identity);
+        //Particles.gameObject.GetComponent<Renderer>().material = col.gameObject.GetComponent<MeshRenderer>().material;
+        //Instantiate(Particles, col.transform.position, Quaternion.identity);
 
         destroy(col.contacts[0].point);
     }

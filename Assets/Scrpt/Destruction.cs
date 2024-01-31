@@ -19,8 +19,10 @@ public class Destruction : MonoBehaviour
         cubeHeight = transform.localScale.y;
         cubeDepth = transform.localScale.x;
 
-        //gameObject.GetComponent<MeshRenderer>().enabled = false;
-        mesh.gameObject.GetComponent<Transform>().localScale = new Vector3(cubeScale, cubeScale, cubeScale);
+        this.gameObject.GetComponent<MeshRenderer>().enabled = false;
+        //mesh.gameObject.GetComponent<Transform>().localScale = new Vector3(cubeScale, cubeScale, cubeScale);
+
+        CreateCube();
 
     }
 
@@ -35,7 +37,7 @@ public class Destruction : MonoBehaviour
     void CreateCube()
     {
         this.gameObject.GetComponent<BoxCollider>().enabled = false;
-        //this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
+        this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
 
         if (gameObject.CompareTag("box"))
         {
