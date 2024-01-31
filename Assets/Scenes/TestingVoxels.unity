@@ -151,9 +151,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305154892}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.22, y: 0.4, z: 0}
-  m_LocalScale: {x: 1, y: 5, z: 50}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -382,7 +382,7 @@ PrefabInstance:
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.68
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36,
         type: 3}
@@ -523,7 +523,7 @@ MonoBehaviour:
   projectile: {fileID: 5666879241280339396, guid: 8a21fd72c34e40d439befb32f5e570dd,
     type: 3}
   point: {fileID: 1897672438}
-  speed: 35
+  speed: 40
 --- !u!114 &1016038727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -718,7 +718,7 @@ Transform:
   m_GameObject: {fileID: 1897672437}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.52, y: -0.14800024, z: 1.31}
+  m_LocalPosition: {x: 0.177, y: -0.14800024, z: 1.087}
   m_LocalScale: {x: 0.16915, y: 0.16915, z: 0.18028928}
   m_ConstrainProportionsScale: 0
   m_Children: []
