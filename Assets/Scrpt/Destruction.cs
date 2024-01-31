@@ -37,7 +37,7 @@ public class Destruction : MonoBehaviour
     void CreateCube()
     {
         this.gameObject.GetComponent<BoxCollider>().enabled = false;
-        this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
+        //this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
 
         if (gameObject.CompareTag("box"))
         {
