@@ -21,7 +21,7 @@ public class Shoot : MonoBehaviour
         else if (Input.GetMouseButtonDown(0) && count == 2)
         {
             GameObject bul = (GameObject)Instantiate(projectile, point.transform.position, Quaternion.identity);
-            bul.gameObject.GetComponent<Collision>().setBlastRadius(2);
+            bul.gameObject.GetComponent<Collision>().setBlastRadius(2.5f);
             bul.gameObject.GetComponent<Collision>().setExplosionPower(300);
             bul.gameObject.GetComponent<Rigidbody>().velocity = Camera.main.transform.forward * speed;
             count++;
