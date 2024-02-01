@@ -40,4 +40,12 @@ public class Collision : MonoBehaviour
             }
         }
     }
+    public void setBlastRadius(float newBlastRadius)
+    {
+        blastRadius = newBlastRadius;
+    }
+    public void setExplosionPower(float newExplosionPower)
+    {
+        blastRadius = newExplosionPower;
+    }
 }
