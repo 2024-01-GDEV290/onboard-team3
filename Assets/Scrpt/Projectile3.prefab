@@ -30,9 +30,9 @@ Transform:
   m_GameObject: {fileID: 484466064993561241}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.388712, y: 1.8413545, z: -3.4388354}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -119,11 +119,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb0b1ee1768c0f4a9e120e03882789a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blastRadius: 0.7
-  explosionPower: 100
+  blastRadius: 1
+  explosionPower: 200
   explosionLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
 --- !u!54 &-8061302488925376553
 Rigidbody:
   m_ObjectHideFlags: 0
