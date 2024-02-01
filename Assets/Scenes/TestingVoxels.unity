@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12807111, g: 0.13524242, b: 0.12262232, a: 1}
+  m_IndirectSpecularColor: {r: 0.1838342, g: 0.22853915, b: 0.30057144, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -213,7 +213,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 92931a60037a06c4686656f8a366531c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -354,13 +354,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810034753}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.98821455, y: -0.14968121, z: -0.031565774, w: 0.0055778315}
+  m_LocalRotation: {x: 0.29928198, y: 0.3109165, z: 0.12630318, w: 0.8932015}
   m_LocalPosition: {x: -4.27, y: 10.16, z: 7.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0.09, y: -176.327, z: -162.771}
+  m_LocalEulerAnglesHint: {x: 27.136, y: -314.841, z: -332.441}
 --- !u!1001 &1016038721
 PrefabInstance:
   m_ObjectHideFlags: 0
