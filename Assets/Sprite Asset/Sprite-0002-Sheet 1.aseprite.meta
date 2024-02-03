@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638421604620107106
+  platformSettingsDirtyTick: 638425016908786296
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -149,7 +149,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 0
       y: 837
-      width: 128
+      width: 26
       height: 21
     spriteID: de45be108178c474b966d514c6a77265
     spriteBone: []
@@ -169,7 +169,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 0
       y: 718
-      width: 128
+      width: 26
       height: 21
     spriteID: 4a2c9ab9fba877049b5fc966a3478222
     spriteBone: []
@@ -189,7 +189,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 0
       y: 599
-      width: 128
+      width: 26
       height: 21
     spriteID: 3f1b95d18dc9b4746983112505911bbb
     spriteBone: []
@@ -209,7 +209,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 0
       y: 480
-      width: 128
+      width: 26
       height: 21
     spriteID: a864ec945bdc5024a9a71528d1a86c36
     spriteBone: []
@@ -229,7 +229,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 0
       y: 361
-      width: 128
+      width: 26
       height: 21
     spriteID: 2494715ff40bee14c933bd478c620d6c
     spriteBone: []
@@ -249,7 +249,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 0
       y: 242
-      width: 128
+      width: 26
       height: 21
     spriteID: 7102bc83a5763d445bb20aaec0d95f5e
     spriteBone: []
@@ -269,7 +269,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 0
       y: 123
-      width: 128
+      width: 26
       height: 21
     spriteID: 30bfd11fe59a95a4b8a979e6565c0b32
     spriteBone: []
@@ -289,7 +289,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 0
       y: 4
-      width: 128
+      width: 26
       height: 21
     spriteID: 0468b166a4d389340951854ef8c6c493
     spriteBone: []
@@ -315,7 +315,7 @@ ScriptedImporter:
         y: 0
         width: 160
         height: 952
-      spriteId: 42e341be4dcfbe8489eaca3aaa2652ee
+      spriteId: 5997f0fb8ff76b247a84ba7c1435671d
     linkedCells: []
     parentIndex: -1
   platformSettings:
