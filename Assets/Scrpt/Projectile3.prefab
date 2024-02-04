@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blastRadius: 2
-  explosionPower: 200
+  explosionPower: 500
   explosionLayers:
     serializedVersion: 2
     m_Bits: 64
